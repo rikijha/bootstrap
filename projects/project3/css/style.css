@@ -1,0 +1,7 @@
+body{
+  background: url(../bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#login-modal input[type="text"],input[type="password"]{
+  margin-top: 10px;
+}

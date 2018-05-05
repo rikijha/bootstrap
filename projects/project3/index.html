@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <<link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">A Project on Modal</h1>
+        <p class="text-center"><a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login-modal">Login here</a></p>
+      </div>
+    </div>
+  </div>
+<div class="modal fade" id="login-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title ">
+          <h4 class="text-center">Login Window</h4>
+        </div>
+      </div>
+      <div id="form">
+        <form >
+          <div class="modal-body">
+          <div>type username and password:</div>
+          <input type="text" class="form-control" placeholder="Email" required>
+          <input type="password" class="form-control" placeholder="Password" required>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">Remember me
+            </label>
+          </div></div>
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col-sm-6">
+                <button class="btn btn-primary btn-lg btn-block">Login</button>
+              </div>
+              <div class="col-sm-6">
+                <button class="btn btn-primary btn-lg btn-block">Sign-up</button>
+
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</html>

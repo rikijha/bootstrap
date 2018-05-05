@@ -1,0 +1,26 @@
+body{
+  background: url(coffee.jpg) no-repeat center center fixed;
+  background-size: cover;
+font-family: 'Abril Fatface', cursive;
+}
+.rowHeight{
+  height: 500px;
+}
+
+h1{
+  color: #000;
+  font-size: 2.5em;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.ima{
+  height: 250px;
+  width: 200px;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  height: 50px
+}
